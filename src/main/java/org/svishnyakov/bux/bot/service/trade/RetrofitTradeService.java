@@ -8,7 +8,9 @@ import retrofit2.http.Path;
 
 import java.util.UUID;
 
-
+/**
+ * Retrofit interface for calling API.
+ */
 public interface RetrofitTradeService {
 
     @POST("core/16/users/me/trades")

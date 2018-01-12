@@ -21,6 +21,9 @@ import org.svishnyakov.bux.bot.service.trade.HttpTradeService;
 import java.io.IOException;
 import java.util.UUID;
 
+/**
+ * Main actor that controls other actors. The child actor should signal it when it's a good time to buy or sell.
+ */
 public class LeaderActor extends AbstractActor {
 
     private static final Logger LOG = LoggerFactory.getLogger(LeaderActor.class);

@@ -4,6 +4,9 @@ import com.google.auto.value.AutoValue;
 
 import java.util.UUID;
 
+/**
+ * Request to sell given position.
+ */
 @AutoValue
 public abstract class SellCmd {
     public static SellCmd create(UUID positionId) {

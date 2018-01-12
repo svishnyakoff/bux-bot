@@ -9,6 +9,9 @@ import org.svishnyakov.bux.bot.service.trade.DealOpened;
 
 import java.math.BigDecimal;
 
+/**
+ * Monitors prices and signals parent when it's a time to sell.
+ */
 public class DealCloserActor extends AbstractActor {
 
     private final String productId;

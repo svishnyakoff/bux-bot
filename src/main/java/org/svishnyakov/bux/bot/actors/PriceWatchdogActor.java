@@ -8,6 +8,9 @@ import org.svishnyakov.bux.bot.event.TradingQuoteEvent;
 
 import java.math.BigDecimal;
 
+/**
+ * Monitors the prices and signals parent when it's time to buy.
+ */
 public class PriceWatchdogActor extends AbstractActor {
 
     private final String product;

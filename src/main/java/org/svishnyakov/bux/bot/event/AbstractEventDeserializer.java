@@ -8,6 +8,9 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import java.io.IOException;
 import java.util.UUID;
 
+/**
+ * Knows how tp deserialize body based on the type.
+ */
 public class AbstractEventDeserializer extends StdDeserializer<AbstractEvent> {
 
     protected AbstractEventDeserializer() {

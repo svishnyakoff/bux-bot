@@ -6,7 +6,9 @@ import com.google.auto.value.AutoValue;
 
 import java.math.BigDecimal;
 
-
+/**
+ * Contains up to date information about product price.
+ */
 @AutoValue
 public abstract class TradingQuoteEvent implements Event {
 

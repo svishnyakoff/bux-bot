@@ -9,6 +9,9 @@ import org.svishnyakov.bux.bot.event.AbstractEvent;
 import java.io.IOException;
 import java.util.function.Consumer;
 
+/**
+ * Accepts the messages from the socket connection and forwards the message to actor system for processing.
+ */
 public class EventDispatcherHandler implements WebSocketTextListener {
 
     private final Logger logger = LoggerFactory.getLogger(EventDispatcherHandler.class);

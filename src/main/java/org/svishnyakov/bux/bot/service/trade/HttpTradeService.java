@@ -11,6 +11,9 @@ import retrofit2.converter.jackson.JacksonConverterFactory;
 import java.io.IOException;
 import java.util.UUID;
 
+/**
+ * Trading service that uses http protocol for the trade operations.
+ */
 public class HttpTradeService implements TradeService {
 
     private static final Retrofit RETROFIT_CLIENT = setupRetrofitClient();
